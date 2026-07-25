@@ -31,9 +31,17 @@ export type PlatformsListType = {
     name: string;
   };
 
+  platform_type: number;
+
   versions: {
     id: number;
     name: string;
+    companies?: {
+      company: {
+        id: number;
+        name: string;
+      };
+    }[];
     slug: string;
     summary?: string;
     url?: string;
@@ -44,7 +52,6 @@ export type PlatformsListType = {
         region: string;
       };
     }[];
-
     platform_logo: {
       image_id: string;
       width: number;

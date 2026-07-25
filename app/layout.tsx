@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="ko" className={cn("h-full", "antialiased", roboto.variable, notoKR.variable, "font-sans", geist.variable)}>
       <body className="min-h-full flex flex-col">
         <Header />
-        <main id="mainContainer" className="max-w-[1400px] w-full mx-auto pt-[120px] pb-[120px]">
+        <main id="mainContainer" className="max-w-[1200px] w-full mx-auto pt-[120px] pb-[120px]">
           {children}
         </main>
       </body>

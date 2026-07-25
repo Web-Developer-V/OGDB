@@ -1,4 +1,4 @@
-import type { GameListType } from "@/app/lib/types";
+import type { GameListType } from "@/lib/types";
 
 export default function GameList({ games }: { games: GameListType[] }) {
   return (

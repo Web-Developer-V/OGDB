@@ -1,8 +1,8 @@
-import getGames from "../lib/games-api";
-import getPlatforms from "../lib/platforms-api";
+import getGames from "../../lib/games-api";
+import getPlatforms from "../../lib/platforms-api";
 import GameList from "../../components/ui/games/game-list";
 
-import type { FilteredGameListType, PlatformType, PlatformsPcVersionType } from "../lib/types";
+import type { FilteredGameListType, PlatformType, PlatformsPcVersionType } from "../../lib/types";
 
 type Props = {
   params: {

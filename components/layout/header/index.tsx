@@ -18,7 +18,7 @@ export default function Header() {
       <div className="inner flex justify-between items-center max-w-[1400px] w-full h-full mx-auto">
         <div className="flex gap-x-10">
           <Link className="flex items-center justify-center" href="/">
-            <Image src="https://www.igdb.com/packs/static/images/igdbLogo-bcd49db90003ee7cd4f4.svg" alt="헤더 로고" width={60} height={60}></Image>
+            <Image src="/assets/logos/header-logo.png" alt="헤더 로고" width={60} height={60} />
           </Link>
           <nav>
             <ul className="flex items-center gap-x-5">
